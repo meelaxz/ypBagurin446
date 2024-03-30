@@ -1,0 +1,181 @@
+.uslugiDesc {
+    margin-top: 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+}
+
+.descText {
+    margin-left: 20px;
+}
+
+.uslugiDesc h2 {
+    font-family: 'pianto';
+    margin-top: 5px;
+    font-size: 18px;
+    color: #45525B;
+    font-weight: 400;
+}
+
+.uslugiDesc h3 {
+    font-family: "Noto Serif Georgian", serif;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #45525B;
+}
+
+.uslugiDesc p {
+    position: absolute;
+    bottom: 3%;
+    font-family: "Noto Serif Georgian", serif;
+    margin-top: 5px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #45525B;
+}
+
+
+
+.infoCard1:hover, .infoCard2:hover, .infoCard3:hover, .infoCard4:hover, .infoCard5:hover, .infoCard6:hover, .infoCard7:hover, .infoCard8:hover, .infoCard9:hover, .infoCard10:hover,.infoCard11:hover, .infoCard12:hover, .infoCard13:hover, .infoCard14:hover, .infoCard15:hover, .infoCard16:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform  0.5s ease-in-out;
+}
+
+
+.infoCard1 {
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+}
+
+.infoCard2 {
+    display: flex;
+    margin-top: 40px;
+    position: relative;
+
+}
+
+.infoCard3 {
+    margin-top: 40px;
+    position: relative;
+    height: 100px;
+
+}
+
+.infoCard4 {
+    margin-top: 40px;
+    position: relative;
+    height: 100px;
+
+}
+
+.infoCard5 {
+    margin-top: 40px;
+    position: relative;
+
+    display: flex;
+}
+
+.infoCard6 {
+    margin-top: 40px;
+    position: relative;
+
+    display: flex;
+}
+
+.infoCard7 {
+    margin-top: 40px;
+    position: relative;
+
+    display: flex;
+}
+
+.infoCard8 {
+    margin-top: 40px;
+    position: relative;
+    height: 100px;
+
+
+}
+
+.infoCard9 {
+    margin-top: 40px;
+    position: relative;
+    height: 100px;
+
+
+}
+
+.infoCard10 {
+    margin-top: 40px;
+    position: relative;
+
+    display: flex;
+}
+
+.infoCard11 {
+    margin-top: 40px;
+    position: relative;
+    height: 100px;
+
+
+}
+
+.infoCard12 {
+    margin-top: 40px;
+    position: relative;
+    height: 100px;
+
+
+}
+
+.infoCard13 {
+    margin-top: 40px;
+    position: relative;
+    height: 100px;
+
+
+}
+
+.infoCard14 {
+    margin-top: 40px;
+    position: relative;
+    height: 100px;
+
+
+}
+
+.infoCard15 {
+    margin-top: 40px;
+    position: relative;
+    height: 100px;
+
+}
+
+.infoCard16 {
+    margin-top: 40px;
+    display: flex;
+    position: relative;
+
+}
+.arrow{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow p{
+    margin-top: 0px;
+    margin-right: 5px;
+    font-size: 15px;
+    color: #575445;
+    position: relative;
+}
+.arrow:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform  0.3s ease;
+}

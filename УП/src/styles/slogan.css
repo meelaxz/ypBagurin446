@@ -1,0 +1,13 @@
+.slogan{
+    width: 664px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.slogan h1{
+    font-weight: 400;
+    font-size: 36px;
+    list-style: 40px;
+    font-family: "Noto Serif Georgian", serif;
+}

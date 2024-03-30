@@ -1,0 +1,36 @@
+header{
+    max-width: 1200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: start;
+}
+
+.logo img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform  0.3s ease;
+}
+
+header nav{
+    text-align: right;
+}
+header a{
+    font-family: "Noto Serif Georgian", serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #353732;
+    margin-left: 20px;
+    font-size: 14px;
+}
+a:hover{
+
+    text-decoration: underline;
+    transform: underline  1s linear;
+}

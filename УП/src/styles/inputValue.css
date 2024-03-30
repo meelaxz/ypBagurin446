@@ -1,0 +1,61 @@
+.inputValue{
+    margin-top: 100px;
+    width: 768px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+}
+.descriptionInput h3{
+    margin-top: 20px;
+    font-family: "Noto Serif Georgian", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #353732;
+}
+.descriptionInput h4{
+    margin-top: 11px;
+    font-family: "Noto Serif Georgian", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #353732;
+}
+.inputs p{
+    font-size: 12px;
+    font-family: "Noto Serif Georgian", serif;
+    color: #353732;
+}
+.inputs input{
+    margin-bottom: 10px;
+    width: 376px;
+    height: 38px;
+    border-color: grey;
+    border: 2px;
+    background-color: #E5E7EB;
+    border-radius: 8px;
+}
+.inputs button{
+    border-radius: 6px;
+    width: 82px;
+    height: 38px;
+    background-color: #353732;
+    color: #353732;
+}
+
+.but{
+    background-color: #353732;
+    color: #353732;
+}
+
+
+@keyframes pButton {
+    0% { color: #353732; }
+    100% { color: white; }
+}
+
+button:hover{
+    cursor: pointer;
+    animation: pButton 2s linear;
+}

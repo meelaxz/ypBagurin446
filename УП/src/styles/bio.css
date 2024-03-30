@@ -1,0 +1,76 @@
+.bio{
+    width: 768px;
+    /* Верхний отступ поставил 100px, так как 250px из макета показалось слишком много */
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FAFAFA;
+}
+.bio h5{
+    color:#45525B;
+}
+.bioCard1:hover, .bioCard2:hover, .bioCard3:hover , .gridCard1:hover, .gridCard2:hover, .threeCard1:hover, .threeCard2:hover, .threeCard3:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform  0.5s ease-in-out;
+}
+
+.bio h3, h4, h5, p{
+    text-decoration: none;
+    font-weight: 400;
+}
+.bio p{
+    position: absolute;
+    bottom: 10%;
+}
+.bioHome{
+    background-color: #FAFAFA;
+}
+.bio h3{
+    font-family: 'pianto';
+}
+.bio h4{
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+    color: #353732;
+}
+
+.gridOne{
+    background-color: #FAFAFA;
+    grid-gap: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bioCard2{
+    height: 245px;
+}
+.bioCard3{
+    height: 258px;
+    margin-top: 20px;
+}
+
+.gridTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.gtidThree{
+    background-color: #fafafa;
+    grid-gap: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.bioCard1, .bioCard2, .bioCard3 , .gridCard1, .gridCard2, .threeCard1, .threeCard2, .threeCard3{
+    position: relative;
+}
+.gridCard1, .gridCard2{
+    height: 334px;
+}
+.threeCard1, .threeCard2, .threeCard3{
+    height: 273px;
+}

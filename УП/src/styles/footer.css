@@ -1,0 +1,31 @@
+footer{
+    margin-top: 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.p1{
+    display: flex;
+}
+.logoFooter{
+    display: block;
+    margin-bottom: 10px;
+}
+.logoFooter img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform  0.3s ease;
+}
+footer a{
+    font-family: "Noto Serif Georgian", serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #45525B;
+    font-size: 14px;
+}
+a:hover{
+    text-decoration: underline;
+    transform: underline  1s linear;
+}
